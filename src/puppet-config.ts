@@ -8,7 +8,7 @@ export const PUPPET_DEPENDENCIES = {
   'padpro'                   : '0.0.0',
   /////////////////////////////////////
   // 'wechaty-puppet-hostie'    : '^0.0.1',
-  'uniqueway-wechaty-puppet-padchat'   : '^0.19.4',   // https://www.npmjs.com/package/wechaty-puppet-padchat
+  'uniqueway-wechaty-puppet-padchat'   : '^0.19.5',   // https://www.npmjs.com/package/wechaty-puppet-padchat
   'wechaty-puppet-ioscat'    : '^0.5.19',   // https://www.npmjs.com/package/wechaty-puppet-ioscat
   'wechaty-puppet-mock'      : '^0.14.1',   // https://www.npmjs.com/package/wechaty-puppet-mock
   'wechaty-puppet-padpro'    : '^0.0.1',    // https://www.npmjs.com/package/wechaty-puppet-padpro

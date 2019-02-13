@@ -108,17 +108,15 @@ export class Friendship extends Accessory implements Acceptable {
   }
 
   public static async search (
-    contact : Contact,
-    hello   : string,
+    contact : Contact
   ) : Promise<any> {
-    log.verbose('Friendship', 'static search(%s, %s)',
-                                contact.id,
-                                hello,
+    log.verbose('Friendship', 'static search(%s)',
+                                contact.id
                 )
 
     this.puppet.contactList()
 
-    return (this.puppet as any).friendshipSearch(contact.id, hello)
+    return (this.puppet as any).friendshipSearch(contact.id)
   }
 
   public static async del (
