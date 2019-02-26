@@ -114,7 +114,7 @@ export class Friendship extends Accessory implements Acceptable {
                                 contact.id
                 )
 
-    this.puppet.contactList()
+    await this.puppet.contactList()
 
     return (this.puppet as any).friendshipSearch(contact.id)
   }
