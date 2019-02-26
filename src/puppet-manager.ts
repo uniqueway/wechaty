@@ -74,7 +74,7 @@ export class PuppetManager {
       case 'padchat':
         // issue #1496 https://github.com/Chatie/wechaty/issues/1496
         // compatible old settings for padchat
-        puppetName = 'wechaty-puppet-padchat'
+        puppetName = 'uniqueway-wechaty-puppet-padchat'
         break
 
       case 'mock':

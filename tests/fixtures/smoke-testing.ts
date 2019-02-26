@@ -15,7 +15,7 @@ function getBotList (): Wechaty[] {
   if (!isPR) {
     botList.push(
       new Wechaty({
-        puppet: 'wechaty-puppet-padchat',
+        puppet: 'uniqueway-wechaty-puppet-padchat',
         // we use WECHATY_PUPPET_PADCHAT_TOKEN environment variable at here.
       })
     )

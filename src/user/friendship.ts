@@ -107,6 +107,18 @@ export class Friendship extends Accessory implements Acceptable {
     await this.puppet.friendshipAdd(contact.id, hello)
   }
 
+  public static async search (
+    contact : Contact
+  ) : Promise<any> {
+    log.verbose('Friendship', 'static search(%s)',
+                                contact.id
+                )
+
+    await this.puppet.contactList()
+
+    return (this.puppet as any).friendshipSearch(contact.id)
+  }
+
   public static async del (
     contact: Contact,
   ): Promise<void> {
